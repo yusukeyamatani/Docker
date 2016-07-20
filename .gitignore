@@ -1,0 +1,13 @@
+*.log
+*.pot
+*.pyc
+*.swp
+.exrc
+.DS_Store
+.coverage
+*.rdb
+.cache
+.idea
+tags
+.noseids
+._*

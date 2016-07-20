@@ -1,0 +1,6 @@
+FROM nginx:1.9
+MAINTAINER Yusuke Yamatani <yusuke.yamatani@gu3.co.jp>
+
+COPY nginx.conf /etc/nginx/conf.d/
+
+CMD ["/usr/sbin/nginx", "-g", "daemon off;", "-c", "/etc/nginx/nginx.conf"]
